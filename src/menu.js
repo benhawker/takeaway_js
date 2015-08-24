@@ -1,5 +1,5 @@
 function Menu() {
-	this.items = {"Pizza": 1,"Pasta": 1, "Water": 1 };
+	this.items = {"Pizza": 1,"Pasta": 2, "Water": 3 };
 }
 
 

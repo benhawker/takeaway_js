@@ -9,7 +9,7 @@ describe ("Menu", function() {
 //need to find correct array matcher.
 describe("menu items", function() {
   it("has the correct items", function() {
-    expect(menu.items).toEqual(jasmine.objectContaining({"Pizza": 1,"Pasta": 1, "Water": 1 }))
+    expect(menu.items).toEqual(jasmine.objectContaining({"Pizza": 1,"Pasta": 2, "Water": 3 }))
   });
 });
 
